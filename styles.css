@@ -1,22 +1,22 @@
 
-      body, div, img {
-        margin: 0;
-        padding: 0;
-        border: none;
-      }
-      
-      .image-container {
-        position: relative;
-        overflow: hidden;
-        width: 100%; /* Adjust the width and height as needed */
-        height: 100%;
-      }
-      
-      .hover-effect {
-        transition: transform 0.3s ease; /* Add smooth transition effect */
-      }
-      
-      .image-container:hover .hover-effect {
-        transform: scale(1.1); /* Scale up the image on hover */
-        /* Add any other hover effects you desire here */
-      }
+    body, div, img {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+    
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%; /* Adjust the width and height as needed */
+      height: 100%;
+    }
+    
+    .hover-effect {
+      transition: transform 0.3s ease; /* Add smooth transition effect */
+    }
+    
+    .image-container:hover .hover-effect {
+      transform: scale(1.1); /* Scale up the image on hover */
+      /* Add any other hover effects you desire here */
+    }
